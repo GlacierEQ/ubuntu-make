@@ -1,147 +1,140 @@
-# German translation for ubuntu-make
-# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the ubuntu-make package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ubuntu-make\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-17 09:26+0100\n"
-"PO-Revision-Date: 2026-02-09 02:09+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/ubuntu-make/"
-"ubuntu-make/de/>\n"
-"Language: de\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
-"X-Launchpad-Export-Date: 2015-11-05 13:56+0000\n"
 
 #: umake/tools.py:48
 msgid "# Ubuntu make installation of {}\n"
-msgstr "# Ubuntu make Installation von {}\n"
+msgstr ""
 
 #: umake/__init__.py:99
 msgid "* Command '{}':"
-msgstr "* Befehl '{}':"
+msgstr ""
 
 #: umake/__init__.py:107
 msgid "Deploy and setup developers environment easily on ubuntu"
-msgstr "Entwicklerumgebung einfach auf Ubuntu bereitstellen und einrichten"
+msgstr ""
 
 #: umake/__init__.py:108
 msgid ""
 "Note that you can also configure different debug logging behavior using "
 "LOG_CFG that points to a log yaml profile."
 msgstr ""
-"Beachten Sie, dass sie das Verhalten verschiedener \"debug logs\" ebenfalls "
-"mit LOG_CFG das auf ein \"log yaml\"-Profil zeigt konfigurieren können."
 
 #: umake/__init__.py:111
 msgid "Show this help"
-msgstr "Diese Hilfe anzeigen"
+msgstr ""
 
 #: umake/__init__.py:112
 msgid "Increase output verbosity (2 levels)"
-msgstr "Erhöhe die Ausführlichkeit der Ausgabe"
+msgstr ""
 
 #: umake/__init__.py:114
 msgid "Remove specified framework if installed"
-msgstr "Entferne, falls installiert, das spezifizierte Framework"
+msgstr ""
 
 #: umake/__init__.py:116
 msgid "Print version and exit"
-msgstr "Version anzeigen und beenden"
+msgstr ""
 
 #: umake/frameworks/ide.py:63
 msgid "Generic IDEs"
-msgstr "Allgemeine integrierte Entwicklungsumgebungen"
+msgstr ""
 
 #: umake/frameworks/ide.py:76
 msgid "Pure Eclipse Luna (4.4)"
-msgstr "Pure Eclipse Luna (4.4)"
+msgstr ""
 
 #: umake/frameworks/ide.py:128
 msgid "The Eclipse Luna Integrated Development Environment"
-msgstr "Integrierte Entwicklungsumgebung Eclipse Luna"
+msgstr ""
 
 #: umake/frameworks/ide.py:131
 msgid "Eclipse Luna"
-msgstr "Eclipse Luna"
+msgstr ""
 
 #: umake/frameworks/ide.py:217
 msgid "PyCharm Community Edition"
-msgstr "PyCharm Community Ausgabe"
+msgstr ""
 
 #: umake/frameworks/ide.py:233
 msgid "PyCharm Educational Edition"
-msgstr "PyCharm Studenten Ausgabe"
+msgstr ""
 
 #: umake/frameworks/ide.py:249
 msgid "PyCharm Professional Edition"
-msgstr "PyCharm Professionelle Ausgabe"
+msgstr ""
 
 #: umake/frameworks/ide.py:265
 msgid "IntelliJ IDEA Community Edition"
-msgstr "IntelliJ IDEA Community Ausgabe"
+msgstr ""
 
 #: umake/frameworks/ide.py:281
 msgid "IntelliJ IDEA"
-msgstr "IntelliJ IDEA"
+msgstr ""
 
 #: umake/frameworks/ide.py:297
 msgid "Ruby on Rails IDE"
-msgstr "Ruby on Rails IDE"
+msgstr ""
 
 #: umake/frameworks/ide.py:314
 msgid "Complex client-side and server-side javascript IDE"
-msgstr "Komplexe Client- und Serverseitige Javascript IDE"
+msgstr ""
 
 #: umake/frameworks/ide.py:331
 msgid "PHP and web development IDE"
-msgstr "PHP und Web-Entwicklung IDE"
+msgstr ""
 
 #: umake/frameworks/ide.py:348
 msgid "CLion integrated C/C++ IDE"
-msgstr "CLion inegrierte C/C++ IDE"
+msgstr ""
 
 #: umake/frameworks/ide.py:376
 msgid "The Arduino Software Distribution"
-msgstr "Arduino Software Distribution"
+msgstr ""
 
 #: umake/frameworks/ide.py:475
 msgid "The Arduino Software IDE"
-msgstr "Arduino Software IDE"
+msgstr ""
 
 #: umake/frameworks/ide.py:478
 msgid "Arduino"
-msgstr "Arduino"
+msgstr ""
 
 #: umake/frameworks/ide.py:484
 msgid "You need to logout and login again for your installation to work"
 msgstr ""
-"Sie müssen sich abmelden und wieder neu anmelden damit ihre Installation "
-"funktioniert"
 
 #: umake/frameworks/ide.py:504 umake/frameworks/ide.py:584
 #: umake/frameworks/ide.py:587
 msgid "Netbeans IDE"
-msgstr "Netbeans IDE"
+msgstr ""
 
 #: umake/frameworks/dart.py:43
 msgid "Dartlang Development Environment"
-msgstr "Dartlang Entwicklungsumgebung"
+msgstr ""
 
 #: umake/frameworks/dart.py:49
-msgid "Dart SDK with editor (not supported upstream anyymore)"
-msgstr "Dart SDK mit Editor (wird upstream nicht mehr unterstützt)"
+msgid "Dart SDK with editor (not supported upstream anymore)"
+msgstr ""
 
 #: umake/frameworks/dart.py:56
 msgid "Dart SDK (default)"
-msgstr "Dart SDK (Standard)"
+msgstr ""
 
 #: umake/frameworks/dart.py:97 umake/frameworks/rust.py:134
 #: umake/frameworks/scala.py:66 umake/frameworks/go.py:76
@@ -150,208 +143,194 @@ msgid ""
 "You need to restart your current shell session for your {} installation to "
 "work properly"
 msgstr ""
-"Sie müssen Ihre aktuelle Shell-Sitzung neu starten, damit Ihre {} "
-"Installation ordnungsgemäß funktioniert"
 
 #: umake/frameworks/rust.py:43
 msgid "Rust language"
-msgstr "Rust Programmiersprache"
+msgstr ""
 
 #: umake/frameworks/rust.py:56
 msgid "The official Rust distribution"
-msgstr "Offizielle Rust Distribution"
+msgstr ""
 
 #: umake/frameworks/scala.py:40
 msgid "The Scala Programming Language"
-msgstr "Scala Programmiersprache"
+msgstr ""
 
 #: umake/frameworks/scala.py:46
 msgid "Scala compiler and interpreter (default)"
-msgstr "Scala Compiler und Interpreter (Standard)"
+msgstr ""
 
 #: umake/frameworks/go.py:39
 msgid "Go language"
-msgstr "Go Programmiersprache"
+msgstr ""
 
 #: umake/frameworks/go.py:46
 msgid "Google compiler (default)"
-msgstr "Google Compiler (Standard)"
+msgstr ""
 
 #: umake/frameworks/android.py:42
 msgid "Android Development Environment"
-msgstr "Android Entwicklungsumgebung"
+msgstr ""
 
 #: umake/frameworks/android.py:80
 msgid "Android Studio (default)"
-msgstr "Android Studio (Standard)"
+msgstr ""
 
 #: umake/frameworks/android.py:100
 msgid "Android Studio"
-msgstr "Android Studio"
+msgstr ""
 
 #: umake/frameworks/android.py:103
 msgid "Android Studio developer environment"
-msgstr "Android Studio Entwicklungsumgebung"
+msgstr ""
 
 #: umake/frameworks/android.py:111
 msgid "Android SDK"
-msgstr "Android SDK"
+msgstr ""
 
 #: umake/frameworks/android.py:147
 msgid "Android NDK"
-msgstr "Android NDK"
+msgstr ""
 
 #: umake/frameworks/__init__.py:129
 msgid "A default framework for category {} was requested where there is none"
 msgstr ""
-"Ein Standard-Framework für die Kategorie {} wurde gefordert, wo es keines "
-"gibt"
 
 #: umake/frameworks/__init__.py:240
 msgid "You can't install that framework on this machine"
-msgstr "Sie können dieses Framework nicht auf diesem Rechner installieren"
+msgstr ""
 
 #: umake/frameworks/__init__.py:256
 msgid "You can't remove {} as it isn't installed"
-msgstr "{} kann nicht deinstalliert werden, da es nicht installiert ist"
+msgstr ""
 
 #: umake/frameworks/__init__.py:285
 msgid ""
 "If the default framework name isn't provided, destdir should contain a /"
 msgstr ""
-"Wenn der Name des standard Frameworks nicht gegeben ist, so sollte das "
-"Zielverzeichnis ein / enthalten"
 
 #: umake/frameworks/__init__.py:288
 msgid "Remove framework if installed"
-msgstr "Entferne, falls installiert, das Framework"
+msgstr ""
 
 #: umake/frameworks/__init__.py:291
 msgid "Accept license without prompting"
-msgstr "Lizenz ohne Nachfrage akzeptieren"
+msgstr ""
 
 #: umake/frameworks/web.py:45
 msgid "Web Developer Environment"
-msgstr "Web Entwicklerumgebung"
+msgstr ""
 
 #: umake/frameworks/web.py:51 umake/frameworks/web.py:120
 msgid "Firefox Developer Edition"
-msgstr "Firefox Entwicklerausgabe"
+msgstr ""
 
 #: umake/frameworks/web.py:116
 msgid "Choose language: {}"
-msgstr "Sprache auswählen: {}"
+msgstr ""
 
 #: umake/frameworks/web.py:123
 msgid "Firefox Aurora with Developer tools"
-msgstr "Firefox Aurora mit Entwicklerwerkzeugen"
+msgstr ""
 
 #: umake/frameworks/web.py:129
 msgid "Install in given language without prompting"
-msgstr "In der angegebenen Sprache ohne Nachfrage installieren"
+msgstr ""
 
 #: umake/frameworks/web.py:141 umake/frameworks/web.py:226
 msgid "Visual Studio focused on modern web and cloud"
-msgstr "Visual Studio mit Schwerpunkt auf modernem Web und Cloud"
+msgstr ""
 
 #: umake/frameworks/web.py:223
 msgid "Visual Studio Code"
-msgstr "Visual Studio Code"
+msgstr ""
 
 #: umake/frameworks/games.py:42
 msgid "Games Development Environment"
-msgstr "Spiele Entwicklungsumgebung"
+msgstr ""
 
 #: umake/frameworks/games.py:48
 msgid "Stencyl game developer IDE"
-msgstr "Stencyl Spielentwickler IDE"
+msgstr ""
 
 #: umake/frameworks/games.py:85
 msgid "Stencyl"
-msgstr "Stencyl"
+msgstr ""
 
 #: umake/frameworks/games.py:114
 msgid "Unity 3D Editor Linux experimental support"
-msgstr "Unity 3D Editor Linux experimentelle Unterstützung"
+msgstr ""
 
 #: umake/frameworks/games.py:154
 msgid "Unity3D Editor"
-msgstr "Unity3D Editor"
+msgstr ""
 
 #: umake/frameworks/games.py:164
 msgid "Twine tool for creating interactive and nonlinear stories"
-msgstr "Twine-Tool zur Erstellung interaktiver und nichtlinearer Geschichten"
+msgstr ""
 
 #: umake/frameworks/games.py:200
 msgid "Twine"
-msgstr "Twine"
+msgstr ""
 
 #: umake/interactions/__init__.py:73
 msgid "No suitable answer provided"
-msgstr "Keine passende Antwort verfügbar"
+msgstr ""
 
 #: umake/interactions/__init__.py:75 umake/interactions/__init__.py:83
 msgid "Your entry '{}' isn't an acceptable choice. choices are: {}"
-msgstr "Ihre Eingabe '{}' ist nicht erlaubt. Mögliche Eingaben sind: {}"
+msgstr ""
 
 #: umake/interactions/__init__.py:80
 msgid "Your entry '{}' isn't an acceptable choice. choices are: {} and {}"
-msgstr "Ihre Eingabe '{}' ist nicht erlaubt. Mögliche Eingaben sind {} oder {}"
+msgstr ""
 
 #: umake/interactions/__init__.py:100
 msgid " ({})"
-msgstr " ({})"
+msgstr ""
 
 #: umake/interactions/__init__.py:104
 msgid ""
 "{}\n"
 "[{}] "
 msgstr ""
-"{}\n"
-"[{}] "
 
 #: umake/interactions/__init__.py:107
 msgid "{} [{}] "
-msgstr "{} [{}] "
+msgstr ""
 
 #: umake/interactions/__init__.py:115
 msgid "I Accept"
-msgstr "Ich akzeptiere"
+msgstr ""
 
 #: umake/interactions/__init__.py:115
 msgid "a"
-msgstr "a"
+msgstr ""
 
 #: umake/interactions/__init__.py:116
 msgid "I don't accept"
-msgstr "Ich akzeptiere nicht"
+msgstr ""
 
 #: umake/interactions/__init__.py:116 umake/interactions/__init__.py:149
 msgid "N"
-msgstr "N"
+msgstr ""
 
 #: umake/interactions/__init__.py:125 umake/interactions/__init__.py:126
 msgid "{} ({})"
-msgstr "{} ({})"
+msgstr ""
 
 #: umake/interactions/__init__.py:129
 msgid "[{}] "
-msgstr "[{}] "
+msgstr ""
 
 #: umake/interactions/__init__.py:148
 msgid "Yes"
-msgstr "Ja"
+msgstr ""
 
 #: umake/interactions/__init__.py:148
 msgid "y"
-msgstr "j"
+msgstr ""
 
 #: umake/interactions/__init__.py:149
 msgid "No"
-msgstr "Nein"
-
-#~ msgid "Stencyl Game developer environment"
-#~ msgstr "Stencyl Spiele Entwicklerumgebung"
-
-#~ msgid "Dart Editor for the dart language"
-#~ msgstr "Dart Editor für die dart Programmiersprache"
+msgstr ""
